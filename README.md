@@ -48,7 +48,7 @@ Run the `.exe` file to launch the Smart-Guard application.
 
 Click the **‘Verify’** button to begin the verification process.
 
-![Main page of Graphical User Interface](images/Main%20page%20of%20Graphical%20User%20Interface.jpg)
+![Main page of Graphical User Interface](images/Main%20page%20of%20GUI.jpg)
 
 ### Step 3: Terminal Background Operations
 
@@ -60,7 +60,7 @@ Behind the scenes:
 
 Face encodings of housemates are preloaded for comparison.
 
-![Loading Housemates' Faces](images/Loading%20Housemates%20Faces.jpg)
+![Loading Housemates' Faces](images/Loading%20Housemates'%20Faces.jpg)
 
 ### Step 5: Real-time Video Capture
 
@@ -78,7 +78,7 @@ Each frame is checked to determine if the face matches a known housemate.
 
 - **Stranger**: Red screen with a warning message and voice alert.
 
-![Entry denied – Verification Denied](images/Entry%20denied%20–%20Verification%20Denied.jpg)
+![Entry denied – Verification Denied](images/Entry%20denied%20-%20Verification%20Denied.jpg)
 
 ### Step 8: Email Alert to Homeowner
 
@@ -88,33 +88,38 @@ An email with intruder image and timestamp is sent to the registered email.
 
 ---
 
-## 👤 House Owner’s Profile
+## 🔐 House Owner Profile
 
-### Profile Access
+### 1. Access & Authentication
 
-Click the **Profile** button on the top-right corner of the main GUI screen.
+- Click on the profile icon (top-right corner).
 
-![Profile button in Main page](images/Profile%20button%20in%20Main%20page.jpg)
+![Profile Button](images/Profile%20button%20in%20Main%20page.jpg)
 
-### Password Authentication
+- Enter password for authentication.
 
-- Correct password grants access
-- Incorrect password triggers a warning
+![Password Auth](images/Profile%20Password%20Authentication.jpg)
 
-![Password Authentication failed](images/Password%20Authentication%20failed.jpg)
-![Password Authentication Successful](images/Password%20Authentication%20Successful.jpg)
+- If the password is correct:
 
-### Entry & Exit Logs
+![Auth Success](images/Password%20Authentication%20Successful.jpg)
 
-Owners can view all housemate entry and exit records.
+- If the password is wrong:
 
-![Viewing Entry and Exit Details & Housemates page](images/Viewing%20Entry%20and%20Exit%20Details%20&%20Housemates%20page.jpg)
+![Auth Failed](images/Password%20Authentication%20failed.jpg)
 
-### Add New Housemate
+### 2. View Entry/Exit Logs
 
-Owners can click a picture and register a new housemate via GUI.
+- Display logs of people who entered or exited.
+- View all current housemates.
 
-![Adding a New Housemate](images/Adding%20a%20New%20Housemate.jpg)
+![Entry/Exit & Housemates](images/Viewing%20Entry%20and%20Exit%20Details%20&%20Housemates%20page.jpg)
+
+### 3. Add New Housemate
+
+- Capture image, input name, and confirm to update the database.
+
+![Add Housemate](images/Adding%20a%20New%20Housemate.jpg)
 
 ### Logout
 
