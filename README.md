@@ -78,7 +78,7 @@ Each frame is checked to determine if the face matches a known housemate.
 
 - **Stranger**: Red screen with a warning message and voice alert.
 
-![Entry denied – Verification Denied](images/Entry%20denied%20-%20Verification%20Denied.jpg)
+![Entry denied – Verification Denied](images/Entry%20denied%20–%20Verification%20Denied.jpg)
 
 ### Step 8: Email Alert to Homeowner
 
@@ -131,7 +131,7 @@ House owner can securely log out to return to the main screen.
 
 The following block diagram shows the Smart-Guard's architecture:
 
-![Block Diagram/Project Architecture](images/Block%20Diagram%20Project%20Architecture.jpg)
+![Block Diagram/Project Architecture](images/Block%20Diagram-Project%20Architecture.jpg)
 
 ---
 
