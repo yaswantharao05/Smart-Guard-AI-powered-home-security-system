@@ -48,19 +48,19 @@ Run the `.exe` file to launch the Smart-Guard application.
 
 Click the **‘Verify’** button to begin the verification process.
 
-![Main page of Graphical User Interface](images/Main page of Graphical User Interface.jpg)
+![Main page of Graphical User Interface](images/Main%20page%20of%20Graphical%20User%20Interface.jpg)
 
 ### Step 3: Terminal Background Operations
 
 Behind the scenes:
 - Virtual environment is activated
-- `face recognition.py` script is executed
+- `face%20recognition.py` script is executed
 
 ### Step 4: Load Housemate Images
 
 Face encodings of housemates are preloaded for comparison.
 
-![Loading Housemates' Faces](images/Loading Housemates Faces.jpg)
+![Loading Housemates' Faces](images/Loading%20Housemates%20Faces.jpg)
 
 ### Step 5: Real-time Video Capture
 
@@ -74,17 +74,17 @@ Each frame is checked to determine if the face matches a known housemate.
 
 - **Housemate**: Green screen with a voice greeting.
 
-![Verification Successful - Entry Successful](images/Verification Successful - Entry Successful.jpg)
+![Verification Successful - Entry Successful](images/Verification%20Successful%20-%20Entry%20Successful.jpg)
 
 - **Stranger**: Red screen with a warning message and voice alert.
 
-![Entry denied – Verification Denied](images/Entry denied – Verification Denied.jpg)
+![Entry denied – Verification Denied](images/Entry%20denied%20–%20Verification%20Denied.jpg)
 
 ### Step 8: Email Alert to Homeowner
 
 An email with intruder image and timestamp is sent to the registered email.
 
-![Intruder email notification](images/Intruder email notification.jpg)
+![Intruder email notification](images/Intruder%20email%20notification.jpg)
 
 ---
 
@@ -94,27 +94,27 @@ An email with intruder image and timestamp is sent to the registered email.
 
 Click the **Profile** button on the top-right corner of the main GUI screen.
 
-![Profile button in Main page](images/Profile button in Main page.jpg)
+![Profile button in Main page](images/Profile%20button%20in%20Main%20page.jpg)
 
 ### Password Authentication
 
 - Correct password grants access
 - Incorrect password triggers a warning
 
-![Password Authentication failed](images/Password Authentication failed.jpg)
-![Password Authentication Successful](images/Password Authentication Successful.jpg)
+![Password Authentication failed](images/Password%20Authentication%20failed.jpg)
+![Password Authentication Successful](images/Password%20Authentication%20Successful.jpg)
 
 ### Entry & Exit Logs
 
 Owners can view all housemate entry and exit records.
 
-![Viewing Entry and Exit Details & Housemates page](images/Viewing Entry and Exit Details & Housemates page.jpg)
+![Viewing Entry and Exit Details & Housemates page](images/Viewing%20Entry%20and%20Exit%20Details%20&%20Housemates%20page.jpg)
 
 ### Add New Housemate
 
 Owners can click a picture and register a new housemate via GUI.
 
-![Adding a New Housemate](images/Adding a New Housemate.jpg)
+![Adding a New Housemate](images/Adding%20a%20New%20Housemate.jpg)
 
 ### Logout
 
@@ -126,13 +126,13 @@ House owner can securely log out to return to the main screen.
 
 The following block diagram shows the Smart-Guard's architecture:
 
-![Block Diagram/Project Architecture](images/Block Diagram Project Architecture.jpg)
+![Block Diagram/Project Architecture](images/Block%20Diagram%20Project%20Architecture.jpg)
 
 ---
 
 ## 📂 Technologies Used
 
-- Python (`face recognition`, `smtplib`, `cv2`, etc.)
+- Python (`face%20recognition`, `smtplib`, `cv2`, etc.)
 - C++ with Qt Framework for GUI
 - OpenCV for real-time video processing
 - SMTP for email notifications
