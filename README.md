@@ -2,7 +2,7 @@
 
 Smart-Guard is an AI-powered IoT-based home security system designed to enhance residential safety using facial recognition, access monitoring, and real-time video processing. The system identifies and logs known housemates while detecting and reporting intruders via email alerts. A simple GUI built using Qt (C++) provides interactive control and monitoring.
 
----
+--- 
 
 ## 🔧 Features
 
